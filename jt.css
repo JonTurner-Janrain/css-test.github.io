@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Chewy;
+  src: url('https://github.com/google/fonts/blob/master/apache/chewy/Chewy-Regular.ttf');
+}
+
 .screen-heading {
   font-family: "Chewy"; 
 }
