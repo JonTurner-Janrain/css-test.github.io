@@ -1,6 +1,5 @@
 html {
   background: white;
-  font-family: 'Schoolbell', serif;
 }
 
 #logo {
@@ -14,7 +13,7 @@ html {
 }
 
 .screen-heading {
-  font-family: 'Schoolbell', serif; 
+  font-family: 'Solis', serif; 
   text-align: center;
   color: #990099;
 }
