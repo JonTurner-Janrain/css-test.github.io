@@ -3,6 +3,11 @@
   src: url('https://github.com/google/fonts/raw/master/apache/schoolbell/Schoolbell-Regular.ttf');
 }
 
+html {
+  background: grey;
+  font-family: Schoolbell;
+}
+
 .screen-heading {
   font-family: Schoolbell; 
 }
