@@ -8,6 +8,16 @@ html {
   font-family: Schoolbell;
 }
 
+#logo {
+  max-width: 300px;
+}
+
+#logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .screen-heading {
   font-family: Schoolbell; 
   text-align: center;
