@@ -15,11 +15,11 @@ html {
 #logo-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .screen-heading {
   font-family: Solis; 
-  text-align: center;
+  text-align: left;
   color: #990099;
 }
