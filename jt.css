@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Solis;
+  src: url('https://jonturner-janrain.github.io/css-test.github.io/Solis-Regular.ttf');
+}
+
 html {
   background: white;
   font-family: 'Arial'
@@ -14,7 +19,7 @@ html {
 }
 
 .screen-heading {
-  font-family: 'Solis', serif; 
+  font-family: Solis; 
   text-align: center;
   color: #990099;
 }
