@@ -6,7 +6,7 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
 });
 
 // janrain.debug.enable();
-
+/*
 function janrainCaptureWidgetOnLoad() {
     janrain.events.onProviderLoginSuccess.addHandler(function(result) {
         alert("onProviderLoginSuccess");
@@ -15,3 +15,4 @@ function janrainCaptureWidgetOnLoad() {
         console.log('after');
     });
 };
+*/
