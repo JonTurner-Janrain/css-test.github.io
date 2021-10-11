@@ -5,7 +5,7 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
   alert("This is test alert box");
 });
 
-janrain.debug.enable();
+// janrain.debug.enable();
 
 function janrainCaptureWidgetOnLoad() {
     janrain.events.onProviderLoginSuccess.addHandler(function(result) {
