@@ -5,6 +5,8 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
   alert("This is test alert box");
 });
 
+janrain.debug.enable();
+/*
 function janrainCaptureWidgetOnLoad() {
     janrain.events.onProviderLoginSuccess.addHandler(function(result) {
         console.log('before');
@@ -12,3 +14,4 @@ function janrainCaptureWidgetOnLoad() {
         console.log('after');
     });
 };
+*/
