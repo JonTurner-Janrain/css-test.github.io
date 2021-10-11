@@ -8,7 +8,7 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
 function janrainCaptureWidgetOnLoad() {
     janrain.events.onProviderLoginSuccess.addHandler(function(result) {
         console.log('before');
-        console.log(event);
+        // console.log(event);
         console.log('after');
     });
 }
