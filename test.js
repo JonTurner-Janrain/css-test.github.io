@@ -10,8 +10,8 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
     console.log('after');
   });
   janrain.events.onCaptureSaveSuccess.addHandler(function(result) {
-    alert("onProviderLoginSuccess");
-    console.log(result.authProvider);
+    alert("onCaptureSaveSuccess");
+    console.log(result.status); // result.authProvider);
     console.log(event);
     console.log('cool');
   });
