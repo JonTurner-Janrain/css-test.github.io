@@ -11,4 +11,4 @@ function janrainCaptureWidgetOnLoad() {
         // console.log(event);
         console.log('after');
     });
-}
+};
