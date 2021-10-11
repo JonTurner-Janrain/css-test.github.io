@@ -3,17 +3,20 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad = janrain.settings.cap
 janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
   // console.log('Testing');
   // alert("This is test alert box");
+  janrain.events.onProviderLoginStart.addHandler(function(result) {
+    alert("onProviderLoginStart");
+    console.log("*** onProviderLoginStart...");
+    console.log(result.provider);
+  });
   janrain.events.onProviderLoginSuccess.addHandler(function(result) {
     alert("onProviderLoginSuccess");
-    console.log('before');
+    console.log("*** onProviderLoginSuccess...");
     console.log(event);
-    console.log('after');
   });
   janrain.events.onCaptureSaveSuccess.addHandler(function(result) {
     alert("onCaptureSaveSuccess");
+    console.log("*** onCaptureSaveSuccess...");
     console.log(result.status); // result.authProvider);
-    console.log(event);
-    console.log('cool');
   });
 });
 
