@@ -1,3 +1,4 @@
+/*
 janrain.settings.capture = janrain.settings.capture || {}
 janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad = janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad || []
 janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
@@ -19,7 +20,7 @@ janrain.settings.capture.beforeJanrainCaptureWidgetOnLoad.push(function() {
     console.log(result.status); // result.authProvider);
   });
 });
-
+*/
 // janrain.debug.enable();
 /*
 function janrainCaptureWidgetOnLoad() {
